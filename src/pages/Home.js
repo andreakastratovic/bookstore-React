@@ -5,8 +5,8 @@ import '../styles/Home.css'
 
 function Home() {
   return (
-    <div className="home">
-      <div className="headerContainer" style={{backgroundImage: `url(${BackgroundImage})` }}>
+    <div className="home" style={{backgroundImage: `url(${BackgroundImage})`, opacity:0.8 }}>
+      <div className="headerContainer">
         <h1>BOOKS FOR EVERYONE</h1>
         <p>Find all your favourite books in one place</p>
         <Link to="/shop">

@@ -15,7 +15,7 @@ function Footer() {
         <FiFacebook />
         <IoLogoTiktok />
         </div>
-        <p> &copy; 2023 biblioteka.com </p>
+        <p> &copy; 2023 bookstore.com </p>
     </div>
   )
 }
