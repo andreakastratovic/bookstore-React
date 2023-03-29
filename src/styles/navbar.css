@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     height: 100px;
-    background-color: #df8e99;
+    background-color: #2e2d2d;
     display: flex;
     flex-direction: row;
   }
@@ -27,9 +27,10 @@
   }
   
   .navbar a {
-    color: rgb(75, 21, 21);
+    color: rgb(250, 250, 250);
     text-decoration: none;
     margin: 30px;
+    font-size: 20px;
   }
   
   .navbar .desnaStrana button {

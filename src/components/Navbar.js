@@ -9,9 +9,7 @@ function Navbar() {
     <div className="navbar">
         <div className="levaStrana">
             <img src={Logo} />
-            <div>
-                
-            </div>
+
         </div>
         <div className="desnaStrana">
             <Link to="/">HOME</Link>
