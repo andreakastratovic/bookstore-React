@@ -3,13 +3,15 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import {BrowserRouter as Router,Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
-import Shop from './pages/Shop';
+import {Shop} from './pages/Shop';
 import Contact from './pages/Contact';
-import Cart from './pages/Cart';
+import {Cart} from './pages/Cart';
+import { ShopContextProvider } from './context/shop-context';
 
 function App() {
   return (
     <div className="App">
+      <ShopContextProvider>
       <Router>
         <Navbar />
         <Routes>
@@ -20,7 +22,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-     
+      </ShopContextProvider>
     </div>
   );
 }
